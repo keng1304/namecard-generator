@@ -1,0 +1,118 @@
+{
+ "_說明": "每個版型＝卡片尺寸＋版面型態＋配色＋字體。顏色用 #RRGGBB 或 #RRGGBBAA。layout：bar（左色條）／underline（底線）／block（上色帶）／ticker（新聞跑馬）／pill（圓角膠囊）。anchor：卡片預設放哪（可用 --pos 覆寫）。",
+ "navy-orange": {
+  "label": "深藍卡＋左側橘條（活動、Demo Day 簡報講者）",
+  "layout": "bar",
+  "w": 433,
+  "h": 116,
+  "radius": 0,
+  "bar": 6,
+  "anchor": "pitch",
+  "font": "genseki",
+  "colors": {
+   "bg": "#050334E1",
+   "accent": "#FFAA28",
+   "org": "#FFAA28",
+   "name": "#FFFFFF",
+   "title": "#E1E1EE",
+   "rule": "#FFAA288C"
+  },
+  "size": {
+   "org": 25,
+   "name": 34,
+   "title": 20
+  }
+ },
+ "minimal-light": {
+  "label": "極簡白卡（企業論壇、白底場景）",
+  "layout": "underline",
+  "w": 460,
+  "h": 120,
+  "radius": 4,
+  "bar": 0,
+  "anchor": "lower-third",
+  "font": "noto-sans-tc",
+  "colors": {
+   "bg": "#FFFFFFEB",
+   "accent": "#1F6FEB",
+   "org": "#5B6470",
+   "name": "#111418",
+   "title": "#5B6470",
+   "rule": "#1F6FEB"
+  },
+  "size": {
+   "org": 22,
+   "name": 36,
+   "title": 20
+  }
+ },
+ "glass-dark": {
+  "label": "半透明黑圓角（晚會、暗場、壓在畫面上不搶戲）",
+  "layout": "pill",
+  "w": 470,
+  "h": 112,
+  "radius": 22,
+  "bar": 0,
+  "anchor": "lower-third",
+  "font": "gensen-rounded",
+  "colors": {
+   "bg": "#0A0A0F99",
+   "accent": "#7CF2C8",
+   "org": "#7CF2C8",
+   "name": "#FFFFFF",
+   "title": "#C9CCD6",
+   "rule": "#FFFFFF33"
+  },
+  "size": {
+   "org": 22,
+   "name": 34,
+   "title": 20
+  }
+ },
+ "bold-block": {
+  "label": "上色帶粗體（活動感強、單位很重要時）",
+  "layout": "block",
+  "w": 450,
+  "h": 128,
+  "radius": 0,
+  "bar": 40,
+  "anchor": "lower-third",
+  "font": "genseki-heavy",
+  "colors": {
+   "bg": "#14161CE6",
+   "accent": "#E8432E",
+   "org": "#FFFFFF",
+   "name": "#FFFFFF",
+   "title": "#D7D9E0",
+   "rule": "#00000000"
+  },
+  "size": {
+   "org": 22,
+   "name": 36,
+   "title": 20
+  }
+ },
+ "news-ticker": {
+  "label": "新聞台跑馬（訪談、街訪、長條 lower third）",
+  "layout": "ticker",
+  "w": 760,
+  "h": 96,
+  "radius": 0,
+  "bar": 260,
+  "anchor": "lower-third-wide",
+  "font": "noto-sans-tc",
+  "colors": {
+   "bg": "#FFFFFFF2",
+   "accent": "#0B3D91",
+   "org": "#0B3D91",
+   "name": "#FFFFFF",
+   "title": "#2B2F36",
+   "rule": "#0B3D91"
+  },
+  "size": {
+   "org": 24,
+   "name": 34,
+   "title": 22
+  }
+ }
+}

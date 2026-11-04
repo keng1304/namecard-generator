@@ -1,0 +1,37 @@
+{
+ "_說明": "字體家族：B／M／R 三個字重對到檔名；ttc 用 [檔名, index]。找檔順序：本資料夾 fonts/ → ~/Library/Fonts → /Library/Fonts。 換字體前先跑 --check-font：日文字型（例 GenJyuu）常缺「暨」等台灣常用字。",
+ "genseki": {
+  "B": "GenSekiGothic2TW-B.otf",
+  "M": "GenSekiGothic2TW-M.otf",
+  "R": "GenSekiGothic2TW-R.otf"
+ },
+ "genseki-heavy": {
+  "B": "GenSekiGothic2TW-H.otf",
+  "M": "GenSekiGothic2TW-B.otf",
+  "R": "GenSekiGothic2TW-M.otf"
+ },
+ "noto-sans-tc": {
+  "B": "NotoSansCJKtc-Black.otf",
+  "M": "NotoSansCJKtc-Medium.otf",
+  "R": "NotoSansCJKtc-Regular.otf"
+ },
+ "gensen-rounded": {
+  "B": [
+   "GenSenRounded2-B.ttc",
+   0
+  ],
+  "M": [
+   "GenSenRounded2-M.ttc",
+   0
+  ],
+  "R": [
+   "GenSenRounded2-R.ttc",
+   0
+  ]
+ },
+ "genjyuu": {
+  "B": "GenJyuuGothic-Bold.ttf",
+  "M": "GenJyuuGothic-Medium.ttf",
+  "R": "GenJyuuGothic-Regular.ttf"
+ }
+}
